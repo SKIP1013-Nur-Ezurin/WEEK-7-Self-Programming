@@ -1,0 +1,48 @@
+package selfProgramming;
+
+import java.util.Scanner;
+
+public class switchSize {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// Java Program to check the size
+		// using the switch...case statement
+		
+		Scanner input = new Scanner(System.in);
+		int size;
+		System.out.print("Enter your size in US sizing: ");
+		size = input.nextInt();
+
+		    
+		    // switch statement to check size
+		    switch (size) {
+
+		      case 29:
+		        System.out.println("Small");
+		        break;
+
+		      case 42:
+		    	  System.out.println( "Medium");
+		        break;
+
+		      case 44:
+		    	  System.out.println("Large");
+		        break;
+
+		      case 48:
+		    	  System.out.println("Extra Large");
+		        break;
+		      
+		      default:
+		    	  System.out.println("Unknown");
+		        break;
+
+		    }
+		    System.out.println("Size: " + size);
+		}
+		
+
+}
+
+
