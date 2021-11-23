@@ -1,0 +1,31 @@
+Choose an operator: +, -, *, or /
++
+Enter first number
+21
+Enter second number
+34
+21.0 + 34.0 = 55.0
+
+Choose an operator: +, -, *, or /
+-
+Enter first number
+89
+Enter second number
+43
+89.0 - 43.0 = 46.0
+
+Choose an operator: +, -, *, or /
+/
+Enter first number
+21
+Enter second number
+2
+21.0 / 2.0 = 10.5
+
+Choose an operator: +, -, *, or /
+*
+Enter first number
+21
+Enter second number
+5
+21.0 * 5.0 = 105.0
