@@ -1,0 +1,25 @@
+package selfProgramming;
+
+public class loopAlphabet {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		 char c;
+		 char d;
+		 
+		 //for capital letters
+		    for(c = 'A'; c <= 'Z'; ++c)
+		      System.out.print(c + " ");
+		    
+		 //for small letters
+		    for(d = 'a'; d <= 'z'; ++d)
+		      System.out.print(d + " ");
+		    }
+		
+	
+		
+
+	}
+
+}
